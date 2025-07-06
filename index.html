@@ -2,18 +2,18 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Health Base</title>
   <style>
     body {
       margin: 0;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       background-color: #f6f9f7;
-      color: #006400;
+      color: #006400; /* dark green for main text */
     }
 
     nav {
-      background-color: #006400;
+      background-color: #006400; /* dark green full width */
       display: flex;
       justify-content: center;
       gap: 30px;
@@ -21,28 +21,28 @@
     }
 
     nav a {
-      color: white;
+      color: white; /* white text */
       text-decoration: none;
       font-weight: 600;
       font-size: 1.1rem;
       padding: 8px 16px;
       border-radius: 6px;
-      background-color: #008000;
+      background-color: #008000; /* slightly lighter green for tabs */
       transition: background-color 0.3s ease;
     }
 
     nav a:hover {
-      background-color: #004d00;
+      background-color: #004d00; /* darker green on hover */
     }
 
     main {
-      min-height: calc(100vh - 60px);
+      height: calc(100vh - 48px); /* full height minus nav height */
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       text-align: center;
-      padding: 20px;
+      padding: 0 20px;
     }
 
     h1 {
@@ -52,14 +52,13 @@
 
     p {
       font-size: 1.3rem;
-      color: #006400;
+      color: #008000; /* green */
       max-width: 600px;
     }
   </style>
 </head>
 <body>
-
-  <nav role="navigation">
+  <nav>
     <a href="protein-bars.html">Protein Bars</a>
     <a href="protein-shakes.html">Protein Shakes</a>
     <a href="creatine-supplements.html">Creatine Supplements</a>
@@ -70,6 +69,5 @@
     <h1>Health Base</h1>
     <p>Your go-to database for fitness-related drink and food products.</p>
   </main>
-
 </body>
 </html>
