@@ -7,31 +7,59 @@
   <style>
     body {
       margin: 0;
-      padding: 0;
-      font-family: 'Segoe UI', sans-serif;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       background-color: #f6f9f7;
+      color: #006400; /* dark green for main text */
+    }
+
+    nav {
+      background-color: #006400; /* dark green full width */
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 12px 0;
+    }
+
+    nav a {
+      color: white; /* white text */
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1.1rem;
+      padding: 8px 16px;
+      border-radius: 6px;
+      background-color: #008000; /* slightly lighter green for tabs */
+      transition: background-color 0.3s ease;
+    }
+
+    nav a:hover {
+      background-color: #004d00; /* darker green on hover */
+    }
+
+    main {
+      height: calc(100vh - 48px); /* full height minus nav height */
       display: flex;
       flex-direction: column;
-      align-items: center;
       justify-content: center;
-      height: 100vh;
+      align-items: center;
       text-align: center;
+      padding: 0 20px;
     }
 
     h1 {
-      color: #006400; /* Dark green */
       font-size: 3rem;
       margin-bottom: 10px;
     }
 
     p {
       font-size: 1.3rem;
-      color: #333;
+      color: #006400; /* dark green */
+      max-width: 600px;
     }
   </style>
 </head>
 <body>
-  <h1>Health Base</h1>
-  <p>Your go-to database for fitness, food, and drink products.</p>
-</body>
-</html>
+  <nav>
+    <a href="protein-bars.html">Protein Bars</a>
+    <a href="protein-shakes.html">Protein Shakes</a>
+    <a href="creatine-supplements.html">Creatine Supplements</a>
+    <a href="pre-workout.html">Pre Workou
