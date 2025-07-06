@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Protein Bars - Health Base</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f6f9f7;
+      color: #006400; /* dark green for main text */
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    /* Top main nav */
+    nav.main-nav {
+      background-color: #006400; /* dark green full width */
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 12px 0;
+    }
+
+    nav.main-nav a {
+      color: white; /* white text */
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1.1rem;
+      padding: 8px 16px;
+      border-radius: 6px;
+      background-color: #008000; /* lighter green */
+      transition: background-color 0.3s ease;
+    }
+
+    nav.main-nav a:hover {
+      background-color: #004d00; /* darker green on hover */
+    }
+
+    /* Secondary tabs */
+    nav.sub-nav {
+      background-color: #e1f0df; /* light green background */
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      padding: 14px 0;
+      border-bottom: 2px solid #006400;
+    }
+
+    nav.sub-nav a {
+      color: #006400;
+      font-weight: 700;
+      font-size: 1rem;
+      text-decoration: none;
+      padding: 6px 14px;
+      border-radius: 4px;
+      transition: background-color 0.25s ease;
+    }
+
+    nav.sub-nav a:hover {
+      background-color: #c0d9b8;
+    }
+
+    /* Main content area */
+    main {
+      flex-grow: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    main h1 {
+      font-size: 3rem;
+      color: #006400; /* dark green */
+      margin: 0;
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- Top main navigation -->
+  <nav class="main-nav">
+    <a href="index.html">Home</a>
+    <a href="protein-bars.html">Protein Bars</a>
+    <a href="protein-shakes.html">Protein Shakes</a>
+    <a href="creatine-supplements.html">Creatine Supplements</a>
+    <a href="pre-workout.html">Pre Workout</a>
+  </nav>
+
+  <!-- Secondary tabs -->
+  <nav class="sub-nav">
+    <a href="protein-bars-rankings.html">Rankings</a>
+    <a href="protein-bars-upcoming.html">Up and Coming</a>
+    <a href="protein-bars-reviews.html">Public Reviews</a>
+  </nav>
+
+  <main>
+    <h1>Protein Bars</h1>
+  </main>
+
+</body>
+</html>
